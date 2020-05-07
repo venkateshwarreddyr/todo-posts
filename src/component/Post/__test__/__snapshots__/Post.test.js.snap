@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Post correctly 1`] = `
+<div
+  class="row"
+  data-testid="post"
+>
+  <div
+    class="card mb-4 bg-white text-dark post col-md-5"
+  >
+    <a
+      class="link"
+      href="/user/1"
+    >
+      <div
+        class="text-dark row"
+      >
+        <div
+          class="name-icon col-md-4"
+        >
+          <h1>
+            V
+          </h1>
+        </div>
+        <div
+          class="col"
+        >
+          <h4>
+            Venkatesh
+          </h4>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    class="col-md-7"
+  >
+    <a
+      class="link"
+      href="/post/1"
+    >
+      <div
+        class="card mb-4 text-white bg-dark"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title float-left"
+          >
+            React coding
+          </h5>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;

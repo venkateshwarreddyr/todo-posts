@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render User correctly 1`] = `
+<div
+  class="row"
+  data-testid="user"
+>
+  <div
+    class="card mb-4 bg-white text-dark post col-md-6 col-12"
+  >
+    <p>
+      User Name: 
+      v@fegsbdf
+    </p>
+    <p>
+      Name: 
+      Venkatesh
+    </p>
+    <p>
+      Email: 
+      venkateshwar1996@gmail.com
+    </p>
+    <p>
+      Website: 
+      google.com
+    </p>
+  </div>
+  <div
+    class="card mb-4 bg-dark text-white post col-md-6 col-12"
+  >
+    <p>
+      Work: 
+    </p>
+    <p>
+      Slogan: 
+    </p>
+    <p>
+      Base: 
+    </p>
+  </div>
+</div>
+`;

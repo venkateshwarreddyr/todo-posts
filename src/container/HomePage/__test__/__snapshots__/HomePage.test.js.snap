@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Homepage without crash 1`] = `
+<div
+  class="container"
+  data-testid="homepage"
+/>
+`;

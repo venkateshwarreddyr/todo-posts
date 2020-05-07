@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render PostDetails correctly 1`] = `
+<div
+  data-testid="postdetails"
+>
+  <div
+    class="userData row"
+  >
+    <h1
+      class="card-title"
+    >
+      Venkatesh
+    </h1>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="card mb-4 bg-dark text-white post col-md-8 col-12"
+    >
+      <h3
+        class="card-title"
+      >
+        React coding
+      </h3>
+      <h5
+        class="card-text"
+      >
+        content body
+      </h5>
+    </div>
+    <div
+      class="mb-4  postData col-md-4 col-12"
+    >
+      <div
+        class="comments"
+      >
+        <div>
+          <small
+            class="card-text"
+          >
+            Email: 
+            venkateshwar1996@gmail.com
+          </small>
+          <p
+            class="card-text"
+          >
+            Comment: 
+            good content
+          </p>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Render PostDetails correctly 2`] = `
+<div
+  data-testid="postdetails"
+>
+  <div
+    class="userData row"
+  >
+    <h1
+      class="card-title"
+    >
+      Venkatesh
+    </h1>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="card mb-4 bg-dark text-white post col-md-8 col-12"
+    >
+      <h3
+        class="card-title"
+      >
+        React coding
+      </h3>
+      <h5
+        class="card-text"
+      >
+        content body
+      </h5>
+    </div>
+    <div
+      class="mb-4  postData col-md-4 col-12"
+    >
+      <div
+        class="comments"
+      />
+    </div>
+  </div>
+</div>
+`;
