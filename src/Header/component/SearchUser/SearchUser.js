@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import InputGroup from "react-bootstrap/InputGroup";
 import NewSelect from "../../../helpers/NewSelect";
 import { DataContext } from "./../../../context/dataContext";
 import { useHistory } from "react-router-dom";
@@ -27,6 +28,7 @@ const SearchUser = () => {
   return (
     <>
       <Form inline onSubmit={(e) => onSubmit(e)}>
+        <InputGroup>
         <NewSelect
           labelKey={"label"}
           name={"searchUser"}
@@ -34,10 +36,11 @@ const SearchUser = () => {
           options={options}
           value={value}
           onChange={(selected) => setValue(selected)}
-        />
-        <Button hidden={true} type={"submit"} variant="outline-success">
+          />
+        <Button type={"submit"} variant="dark">
           Search
         </Button>
+          </InputGroup>
       </Form>
     </>
   );

@@ -2,10 +2,11 @@
 
 exports[`Render PostDetails correctly 1`] = `
 <div
+  class="mt-4"
   data-testid="postdetails"
 >
   <div
-    class="userData row"
+    class="row"
   >
     <h1
       class="card-title"
@@ -59,10 +60,11 @@ exports[`Render PostDetails correctly 1`] = `
 
 exports[`Render PostDetails correctly 2`] = `
 <div
+  class="mt-4"
   data-testid="postdetails"
 >
   <div
-    class="userData row"
+    class="row"
   >
     <h1
       class="card-title"

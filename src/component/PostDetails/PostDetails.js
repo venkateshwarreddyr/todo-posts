@@ -19,8 +19,8 @@ const Comments = ({ comments }) => {
 
 const PostDetails = ({ title, body, comments, userName }) => {
   return (
-    <div data-testid={'postdetails'}>
-      <Row className="userData">
+    <div data-testid={'postdetails'} className="mt-4">
+      <Row>
           <h1 className="card-title">{userName}</h1>
       </Row>
       <Row>

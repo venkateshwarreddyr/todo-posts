@@ -2,11 +2,11 @@
 
 exports[`Render User correctly 1`] = `
 <div
-  class="row"
+  class="mt-4 row"
   data-testid="user"
 >
   <div
-    class="card mb-4 bg-white text-dark post col-md-6 col-12"
+    class="card mb-4 bg-dark text-white post col-md-6 col-12"
   >
     <p>
       User Name: 
@@ -26,7 +26,7 @@ exports[`Render User correctly 1`] = `
     </p>
   </div>
   <div
-    class="card mb-4 bg-dark text-white post col-md-6 col-12"
+    class="card mb-4 bg-white text-dark post col-md-6 col-12"
   >
     <p>
       Work: 

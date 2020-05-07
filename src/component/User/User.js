@@ -5,14 +5,14 @@ import PropTypes from "prop-types";
 
 const User = ({ username, name, email, website, company }) => {
   return (
-    <Row data-testid={'user'}>
-      <Col md={6} xs={12} className="card mb-4 bg-white text-dark post">
+    <Row data-testid={"user"} className="mt-4">
+      <Col md={6} xs={12} className="card mb-4 bg-dark text-white post">
         <p>User Name: {username}</p>
         <p>Name: {name}</p>
         <p>Email: {email}</p>
         <p>Website: {website}</p>
       </Col>
-      <Col md={6} xs={12} className="card mb-4 bg-dark text-white post">
+      <Col md={6} xs={12} className="card mb-4 bg-white text-dark post">
         <p>Work: {(company || {}).name}</p>
         <p>Slogan: {(company || {}).catchPhrase}</p>
         <p>Base: {(company || {}).bs}</p>
@@ -26,6 +26,6 @@ User.propTypes = {
   name: PropTypes.string,
   email: PropTypes.string,
   website: PropTypes.string,
-  company: PropTypes.object,
+  company: PropTypes.object
 };
 export default User;

@@ -2,7 +2,13 @@
 
 exports[`renders Homepage without crash 1`] = `
 <div
-  class="container"
+  class="mt-4 container"
   data-testid="homepage"
-/>
+>
+  <table
+    class="table table-dark table-striped table-bordered table-hover"
+  >
+    <tbody />
+  </table>
+</div>
 `;
