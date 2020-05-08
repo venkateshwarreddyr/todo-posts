@@ -1,21 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+
 import "./Post.css";
 const Post = ({ userId, userName, id, title }) => {
   return (
-    <div data-testid={"post"}>
-      <div>
+    <div data-testid={"post"} className="tupple" >
+      <div className="post-by">
         <h5>
-          <Link className="link" to={`/user/${userId}`}>
+          <Link to={`/user/${userId}`}>
             <span className="text-white">{userName}</span>
           </Link>
         </h5>
       </div>
       <Link className="link" to={`/post/${id}`}>
-        <div>
+        <div className="post-title">
           <p>
-            <span className="text-off-white">{title}</span>
+            <span className="text-white">{title}</span>
           </p>
         </div>
       </Link>

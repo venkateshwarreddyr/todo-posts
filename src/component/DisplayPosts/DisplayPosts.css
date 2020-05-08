@@ -1,0 +1,9 @@
+.list-group-item.list-group-item-secondary {
+  padding: 0px;
+  background-color: #3e444a;
+}
+
+.list-group-item.list-group-item-dark {
+  padding: 0px;
+  background-color: #343a40;
+}

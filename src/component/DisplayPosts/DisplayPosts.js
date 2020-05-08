@@ -1,25 +1,22 @@
 import React, { useContext } from "react";
 import Post from "../Post";
 import { DataContext } from "./../../context/dataContext";
-import Table from "react-bootstrap/Table";
+import ListGroup from "react-bootstrap/ListGroup";
+import './DisplayPosts.css';
 
 const DisplayPosts = () => {
   const context = useContext(DataContext);
   const posts = context.posts;
   return (
-    <Table striped bordered hover variant="dark">
-      <tbody>
-        {posts.map((post) => {
-          return (
-            <tr key={post.title}>
-              <td>
-                <Post {...post} />
-              </td>
-            </tr>
-          );
-        })}
-      </tbody>
-    </Table>
+    <ListGroup variant="flush">
+      {posts.map((post, i) => {
+        return (
+          <ListGroup.Item key={post.title} variant={i % 2 ? "dark" : "secondary"} >
+            <Post {...post} />
+          </ListGroup.Item>
+        );
+      })}
+    </ListGroup>
   );
 };
 

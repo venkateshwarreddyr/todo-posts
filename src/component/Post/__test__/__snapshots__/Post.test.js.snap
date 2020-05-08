@@ -2,12 +2,14 @@
 
 exports[`Render Post correctly 1`] = `
 <div
+  class="tupple"
   data-testid="post"
 >
-  <div>
+  <div
+    class="post-by"
+  >
     <h5>
       <a
-        class="link"
         href="/user/1"
       >
         <span
@@ -22,10 +24,12 @@ exports[`Render Post correctly 1`] = `
     class="link"
     href="/post/1"
   >
-    <div>
+    <div
+      class="post-title"
+    >
       <p>
         <span
-          class="text-off-white"
+          class="text-white"
         >
           React coding
         </span>
