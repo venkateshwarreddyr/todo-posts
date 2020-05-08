@@ -18,19 +18,19 @@ exports[`Render Post correctly 1`] = `
       </a>
     </h5>
   </div>
-  <div>
-    <p>
-      <a
-        class="link"
-        href="/post/1"
-      >
+  <a
+    class="link"
+    href="/post/1"
+  >
+    <div>
+      <p>
         <span
           class="text-off-white"
         >
           React coding
         </span>
-      </a>
-    </p>
-  </div>
+      </p>
+    </div>
+  </a>
 </div>
 `;
