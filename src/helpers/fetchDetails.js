@@ -1,25 +1,27 @@
+import { BASE_URL } from '../config.json';
+
 export const fetchPosts = () => {
-  return fetch("https://jsonplaceholder.typicode.com/posts")
+  return fetch(`${BASE_URL}posts`)
     .then((response) => response.json())
     .then((json) => json);
 };
 export const fetchUsers = () => {
-  return fetch("https://jsonplaceholder.typicode.com/users")
+  return fetch(`${BASE_URL}users`)
     .then((response) => response.json())
     .then((json) => json);
 };
 export const fetchPost = (id) => {
-  return fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
+  return fetch(`${BASE_URL}posts/${id}`)
     .then((response) => response.json())
     .then((json) => json);
 };
 export const fetchComments = (id) => {
-  return fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
+  return fetch(`${BASE_URL}posts/${id}/comments`)
     .then((response) => response.json())
     .then((json) => json);
 };
 export const fetchUser = (id) => {
-  return fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
+  return fetch(`${BASE_URL}users/${id}`)
     .then((response) => response.json())
     .then((json) => json);
 };
